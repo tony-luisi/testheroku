@@ -1,0 +1,22 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node tests.js | tap-diff",
+    "debug": "node --inspect index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.3"
+  }
+}
